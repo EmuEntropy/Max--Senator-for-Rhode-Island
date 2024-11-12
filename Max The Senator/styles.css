@@ -1,0 +1,128 @@
+#image1 {
+    height: 140vh;
+    width: 83vw;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+
+}
+
+#skibidi {
+    width: 9vw;
+    height: 2vh;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 90px;
+    opacity: 1;
+    animation: fadeIn 2.5s ease-in-out;
+
+
+}
+
+.buttons1 {
+    font-size: 6vw;
+    position: absolute;
+    top: 298px;
+    left: 83px;
+    text-decoration: none;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeIn 2.5s ease-in-out;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.buttons2 {
+    font-size: 6vw;
+    position: absolute;
+    top: 438px;
+    left: 90px;
+    text-decoration: none;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeIn 2.5s ease-in-out;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.buttons3 {
+    font-size: 6vw;
+    position: absolute;
+    top: 580px;
+    left: 80px;
+    text-decoration: none;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeIn 2.5s ease-in-out;
+    opacity: 1;
+    font-weight: 600;
+
+}
+
+.buttons1:hover {
+    color: goldenrod;
+    font-size: 6.2vw;
+}
+
+.buttons2:hover {
+    color: goldenrod;
+    font-size: 6.2vw;
+}
+
+.buttons3:hover {
+    color: goldenrod;
+    font-size: 6.2vw;
+}
+
+#homepagetitle1 {
+    font-size: 4vw;
+    position: absolute;
+    top: -1px;
+    left: 100px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#homepagetitle2 {
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#homepagetitle3 {
+    font-size: 3vw;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#homepagetitle4 {
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+}
+
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
